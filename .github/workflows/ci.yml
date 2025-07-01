@@ -42,3 +42,6 @@ jobs:
 
       - name: Passes formatting style checks
         run: npm run format:check
+
+      - name: Passes linter checks
+        run: npm run lint
